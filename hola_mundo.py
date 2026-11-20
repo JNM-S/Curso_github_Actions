@@ -1,7 +1,7 @@
 import os
 
 def main():
-    nombre = os.gev("USERNAME")
+    nombre = os.getenv("USERNAME")
     print(f"¡Hola, {nombre} desde GitHub!")
 
 if __name__ == "__main__":
